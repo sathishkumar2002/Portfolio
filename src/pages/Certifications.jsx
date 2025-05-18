@@ -1,6 +1,6 @@
 import React from 'react';
-import awsLogo from '../assets/gcp-certified.png';
-import gcpLogo from '../assets/gcp-certified.jpeg';
+import awsLogo from '../assets/aws-certified.png';
+import gcpLogo from '../assets/gcp-certified.png';
 
 export default function Certifications() {
   return (
