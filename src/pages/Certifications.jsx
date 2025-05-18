@@ -1,4 +1,6 @@
 import React from 'react';
+import awsLogo from '../assets/gcp-certified.png';
+import gcpLogo from '../assets/gcp-certified.jpeg';
 
 export default function Certifications() {
   return (
@@ -9,6 +11,10 @@ export default function Certifications() {
         <li>AWS Certified Cloud Practitioner</li>
         <li>Google Cloud Certified Professional Data Engineer</li>
       </ul>
+      <div className="flex justify-center items-center space-x-6">
+        <img src={awsLogo} alt="AWS Certified" className="h-16" />
+        <img src={gcpLogo} alt="GCP Certified" className="h-16" />
+      </div>
     </section>
   );
 }
