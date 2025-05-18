@@ -12,7 +12,7 @@ export default function About() {
         <div className="flex-shrink-0">
           <img
             src={profile}
-            alt="Sathish Kumar"
+            alt="S.SathishKumar"
             className="w-60 h-[400px] object-cover rounded-xl shadow-lg border-4 border-white"
           />
         </div>
